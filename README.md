@@ -53,7 +53,7 @@ agent should handle specific tasks based on current states and outputs. It
 ensures that the Institutional, Recruitment, and Calculation Agents perform 
 their functions effectively, with tasks routed and completed as needed.
 
-### Repository Structure
+## Repository Structure
 
 - **app.py**: The main entry point for the application. This script 
 initializes the multi-agent system, sets up the Streamlit interface, and 
@@ -85,7 +85,7 @@ project.
 necessary environment variables. It is useful for setting up the development 
 environment by copying and renaming it to `.env`.
 
-### Setup
+## Setup
 
 To set up the HR Specialist Multi-Agent System locally, follow these steps:
 
