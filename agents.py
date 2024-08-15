@@ -100,7 +100,7 @@ def create_workflow(models, tools, prompts):
     supervisor_chain = create_supervisor_chain(models['supervisor'],
                                                prompts['supervisor'])
 
-    # Create the recruitment agent using the REACT framework
+    # Create a graph that works with a chat model that utilizes tool calling
     recruitment_agent = create_react_agent(
         models["recruitment"],
         tools["recruitment"]
@@ -114,7 +114,7 @@ def create_workflow(models, tools, prompts):
                                      prompts['institutional'])
     )
 
-    # Create the calculation agent using the REACT framework
+    # Create a graph that works with a chat model that utilizes tool calling
     calculation_agent = create_react_agent(
         models["calculation"],
         tools["calculation"]
