@@ -2,12 +2,19 @@
 Welcome to the HR Specialist Multi-Agent System! This application is designed 
 to streamline various HR-related tasks using specialized agents.
 
+System presentation: https://youtu.be/dMbQ4icxXxc
+
+Also refer to *presentation.pdf* for details.
+
 ## Overview
 
 The HR Specialist Multi-Agent System employs a combination of LangChain and 
 LangGraph technologies to manage HR tasks through multiple specialized agents 
 and a central supervisor. Streamlit is used to provide an interactive web 
 interface.
+
+![System Overview](system.png)
+
 
 ### Institutional Agent
 
